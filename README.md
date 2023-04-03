@@ -15,4 +15,5 @@ Jestem zdeterminowana, aby ukończyć wszystkie zadania i wyciągnąć z tego pr
 Ogromnym atutem kursu według mnie jest możliwość uzyskania cennego feedbacku od ekspertów oraz kontakt z mentorami i resztą uczestników.</br>
 Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i kompetencje miękkie poprzez dodane zdania z obszaru HR.
 
-## **<p style="text-align: right;">Karola</p>**
+## **<div dir="rtl">Karola</div>**
+
