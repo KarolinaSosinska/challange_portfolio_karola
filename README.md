@@ -15,6 +15,7 @@ Jestem zdeterminowana, aby ukończyć wszystkie zadania i wyciągnąć z tego pr
 Ogromnym atutem kursu według mnie jest możliwość uzyskania cennego feedbacku od ekspertów oraz kontakt z mentorami i resztą uczestników.</br>
 Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i kompetencje miękkie poprzez dodane zdania z obszaru HR.
 
+
 ## **<p style="text-align: right;">Karola</p>**
 <br>
 <br>
@@ -37,3 +38,7 @@ Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i 
 | Okno wyboru języka      |               /html/body/div/form/div[1]/div[2]/div               |            //*[contains(@class,"MuiInputBase-root MuiInput-root MuiInput-underline jss6")] |                                                                                                                           //*[@id="__next"]/form/div/div[2]/div |
 | Nagłówek "Scouts Panel" |//*[starts-with(@class,"MuiTypography")]|                                                                 //*[text()="Scouts Panel"] |                                                                                                                               /html/body/div/form/div/div[1]/h5 |
 | Strzałka wyboru języka  |//*[contains(@class, "MuiSvgIcon-root MuiSelect-icon")]|//*[@id="__next"]//*[@viewBox="0 0 24 24"]|                                                                                                                 //*[@aria-hidden="true" and @focusable="false"] |
+
+## **<div dir="rtl">Karola</div>**
+
+
