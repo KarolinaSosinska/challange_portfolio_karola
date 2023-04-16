@@ -39,6 +39,6 @@ Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i 
 | Nagłówek "Scouts Panel" |//*[starts-with(@class,"MuiTypography")]|                                                                 //*[text()="Scouts Panel"] |                                                                                                                               /html/body/div/form/div/div[1]/h5 |
 | Strzałka wyboru języka  |//*[contains(@class, "MuiSvgIcon-root MuiSelect-icon")]|//*[@id="__next"]//*[@viewBox="0 0 24 24"]|                                                                                                                 //*[@aria-hidden="true" and @focusable="false"] |
 
-## **<div dir="rtl">Karola</div>**
+
 
 
