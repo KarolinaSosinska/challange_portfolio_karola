@@ -1,3 +1,5 @@
+import time
+
 from pages.base_page import BasePage
 
 
@@ -18,4 +20,9 @@ class DashBoard(BasePage):
     events_count_xpath = "//*[contains(@class, 'MuiGrid-grid-md-3')][4]"
     shortcuts_header_xpath = "//div[2]/div/div/h2"
     activity_header_xpath = "//div[3]/div/div/h2"
-    pass
+    expected_title = 'Scouts panel'
+    dashboard_ur = 'https://scouts-test.futbolkolektyw.pl/'
+
+    def title_of_page(self):
+        time.sleep(5)
+        assert self.get_page_title(self.dashboard_ur) == self.expected_title
