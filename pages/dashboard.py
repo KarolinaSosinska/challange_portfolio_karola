@@ -22,7 +22,11 @@ class DashBoard(BasePage):
     activity_header_xpath = "//div[3]/div/div/h2"
     expected_title = 'Scouts panel'
     dashboard_ur = 'https://scouts-test.futbolkolektyw.pl/'
+    add_player_button_xpath = '//div[2]/div/div/a/button/span[1]'
 
     def title_of_page(self):
         time.sleep(5)
-        assert self.get_page_title(self.dashboard_ur) == self.expected_title
+        assert self.get_page_title() == self.expected_title
+
+    def click_on_the_add_player_button(self):
+        self.click_on_the_element(self.add_player_button_xpath)

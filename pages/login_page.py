@@ -1,5 +1,4 @@
 import time
-from selenium.webdriver.remote.webdriver import WebDriver
 
 from pages.base_page import BasePage
 
@@ -9,7 +8,7 @@ class LoginPage(BasePage):
     password_field_xpath = "//form/div/div[1]/div[2]/div/input"
     sign_in_button_xpath = "//span[1]"
     header_xpath = '//div[1]/h5'
-    element_text = 'Scouts Panel'
+    header_text = 'Scouts Panel'
     login_url = 'https://scouts-test.futbolkolektyw.pl/en'
     expected_title = 'Scouts panel - sign in'
 
@@ -24,10 +23,7 @@ class LoginPage(BasePage):
 
     def title_of_page(self):
         time.sleep(2)
-        self.get_page_title(self.login_url) == self.expected_title
-
-    def __init__(self, driver: WebDriver):
-        self.driver = driver
+        assert self.get_page_title() == self.expected_title
 
     def header_of_page(self):
-        self.assert_element_text(self, xpath='//div[1]/h5', expected_text='Scouts Panel')
+        self.assert_element_text(self.driver, self.header_xpath, self.header_text)
