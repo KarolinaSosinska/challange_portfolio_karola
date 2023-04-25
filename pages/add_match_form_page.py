@@ -1,13 +1,14 @@
 from pages.base_page import BasePage
 
 
-class AddMatchForm(BasePage):
+class AddMatchFormPage(BasePage):
     header_scouts_panel_xpath = "/header/div/h6"
     main_page_button_xpath = "//ul[1]/div[1]"
     players_button_xpath = "//ul[1]/div[2]"
     selected_player_xpath = "//ul[2]/div[1]"
-    matches_xpath = "//ul[2]/div[2]"
-    reports_xpath = "//ul[2]/div[3]"
+    matches_button_xpath = "//ul[2]/div[2]"
+    add_match_button_xpath = '//div[1]/main/a/button'
+    reports_button_xpath = "//ul[2]/div[3]"
     language_selection_xpath = "//ul[3]/div[1]"
     sign_out_button_xpath = "//ul[3]/div[2]"
     submit_button_xpath = "//*[@type='submit']"
@@ -25,4 +26,30 @@ class AddMatchForm(BasePage):
     web_match_space_xpath = "//div[11]/div/div/input"
     general_space_xpath = "//*[@name='general']"
     rating_space_xpath = "//*[@max='5']"
-    pass
+    date_input_xpath = '//div[5]/div/div/input'
+
+    def click_on_matches_button(self):
+        self.click_on_the_element(self.matches_button_xpath)
+
+    def click_on_add_match_button(self):
+        self.click_on_the_element(self.add_match_button_xpath)
+
+    def type_in_my_team(self, my_team_name):
+        self.field_send_keys(self.my_team_space_xpath, my_team_name)
+
+    def type_in_enemy_team(self, enemy_team_name):
+        self.field_send_keys(self.enemy_team_space_xpath, enemy_team_name)
+
+    def type_in_my_team_score(self, my_team_score):
+        self.field_send_keys(self.my_team_score_space_xpath, my_team_score)
+
+    def type_in_enemy_team_score(self, enemy_team_score):
+        self.field_send_keys(self.enemy_score_space_xpath, enemy_team_score)
+
+    def type_in_date(self, date):
+        self.field_send_keys(self.date_input_xpath, date)
+
+    def click_on_submit_button(self):
+        self.click_on_the_element(self.submit_button_xpath)
+
+
