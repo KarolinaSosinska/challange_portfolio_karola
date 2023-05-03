@@ -35,12 +35,16 @@ class TestAddAMatchForm(unittest.TestCase):
         add_match = AddMatchFormPage(self.driver)
         add_match.click_on_matches_button()
         add_match.click_on_add_match_button()
+        add_match.title_of_page()
         add_match.type_in_my_team('legia')
         add_match.type_in_enemy_team('wisla')
         add_match.type_in_my_team_score('5')
         add_match.type_in_enemy_team_score('1')
         add_match.type_in_date('20012023')
         add_match.click_on_submit_button()
+        add_match.click_on_main_page_button()
+        dashboard_page.element_located()
+
 
     @classmethod
     def tearDown(self):

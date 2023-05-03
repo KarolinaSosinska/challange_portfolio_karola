@@ -28,6 +28,7 @@ class TestSortPlayersByAgePage(unittest.TestCase):
         dashboard_page = DashBoard(self.driver)
         dashboard_page.title_of_page()
         sort_page = SortPlayersByAgePage(self.driver)
+        sort_page.click_on_players_button()
         sort_page.click_on_age_button()
 
     @classmethod

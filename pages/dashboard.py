@@ -27,10 +27,22 @@ class DashBoard(BasePage):
     dashboard_ur = 'https://scouts-test.futbolkolektyw.pl/'
     add_player_button_xpath = '//div[2]/div/div/a/button/span[1]'
     wait = WebDriverWait(driver, 10)
+    last_updated_player_xpath = '//a[2]/button'
+    element_text_xpath = '//a[3]/button'
+    expected_text = 'LEGIA - WISLA'
 
     def title_of_page(self):
-        self.wait_for_element_to_be_clickable(self.scouts_panel_logo_xpath)
+        time.sleep(3)
         assert self.get_page_title() == self.expected_title
 
     def click_on_the_add_player_button(self):
+        self.wait_for_element_to_be_clickable(self.add_player_button_xpath)
         self.click_on_the_element(self.add_player_button_xpath)
+
+    def click_on_last_updated_player(self):
+        self.wait_for_element_to_be_clickable(self.last_updated_player_xpath)
+        self.click_on_the_element(self.last_updated_player_xpath)
+
+    def element_located(self):
+        self.visibility_of_element_located(self.header_scouts_panel_xpath)
+        self.assert_element_text(self.driver, self.element_text_xpath, self.expected_text)

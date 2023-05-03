@@ -35,6 +35,9 @@ class TestClearPlayerForm(unittest.TestCase):
         keyboard.press_and_release('enter')
         clear_player.click_on_selected_player()
         clear_player.click_on_clear_button()
+        clear_player.click_on_main_page_button()
+        dashboard_page.click_on_last_updated_player()
+        clear_player.title_of_page()
 
     @classmethod
     def tearDown(self):

@@ -50,3 +50,9 @@ Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i 
 <br>
 Link do Google Drive: https://drive.google.com/drive/folders/1rpcmPnEsfivsjWbM_BE2PjQRkhqdvCEv?usp=sharing
 
+
+<br>
+<br>
+<br>
+
+

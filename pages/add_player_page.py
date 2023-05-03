@@ -1,5 +1,7 @@
 import time
+
 import keyboard
+
 from pages.base_page import BasePage
 
 
@@ -21,12 +23,16 @@ class AddPlayer(BasePage):
     district_filed_xpath = '//div[13]/div/div/div'
     achievements_filed_xpath = '//div[14]/div/div/input'
     submit_button_xpath = '//div[3]/button[1]'
+    main_page_button_xpath = '//ul[1]/div[1]'
+    last_created_player_xpath = '//div[3]/div/div/a[1]/button/span[1]'
+    expected_player = 'JOHN SMITH'
 
     def title_of_page(self):
         time.sleep(2)
         assert self.get_page_title() == self.expected_title
 
     def click_on_leg_filed(self, leg):
+        self.wait_for_element_to_be_clickable(self.leg_filed_xpath)
         self.click_on_the_element(self.leg_filed_xpath)
         if leg == "left":
             keyboard.press_and_release('Down')
@@ -69,6 +75,7 @@ class AddPlayer(BasePage):
         self.field_send_keys(self.second_position_filed_xpath, second_position)
 
     def click_on_district_filed(self, district):
+        self.wait_for_element_to_be_clickable(self.district_filed_xpath)
         self.click_on_the_element(self.district_filed_xpath)
         if district == "Lower Silesia":
             keyboard.press_and_release('Up')
@@ -228,5 +235,10 @@ class AddPlayer(BasePage):
     def type_in_achievements(self, achievements):
         self.field_send_keys(self.achievements_filed_xpath, achievements)
 
-    def click_on_the_submit_button(self):
+    def click_on_submit_button(self):
+        self.wait_for_element_to_be_clickable(self.submit_button_xpath)
         self.click_on_the_element(self.submit_button_xpath)
+
+    def click_on_main_page_button(self):
+        self.wait_for_element_to_be_clickable(self.main_page_button_xpath)
+        self.click_on_the_element(self.main_page_button_xpath)

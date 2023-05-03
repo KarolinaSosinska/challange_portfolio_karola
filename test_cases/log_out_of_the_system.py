@@ -29,6 +29,7 @@ class TestLogOutPage(unittest.TestCase):
         dashboard_page.title_of_page()
         user_logout = LogOutPage(self.driver)
         user_logout.click_on_the_sign_out_button()
+        user_logout.title_of_page()
 
     @classmethod
     def tearDown(self):

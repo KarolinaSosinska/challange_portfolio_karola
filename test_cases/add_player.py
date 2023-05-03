@@ -2,10 +2,13 @@ import time
 import unittest
 import os
 
+import pyautogui
+import pyscreeze
 from selenium import webdriver
 
 from pages.add_player_page import AddPlayer
 from pages.dashboard import DashBoard
+from pages.login_page import LoginPage
 from test_cases.login_to_the_system import TestLoginPage
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
@@ -26,7 +29,7 @@ class TestAddPlayer(unittest.TestCase):
         dashboard_page.click_on_the_add_player_button()
         selection = AddPlayer(self.driver)
         selection.type_in_email('abc@gmail.com')
-        selection.type_in_name('John')
+        selection.type_in_name('Johnn')
         selection.type_in_surname('Smith')
         selection.type_in_phone('555675894')
         selection.type_in_weight('78')
@@ -39,7 +42,10 @@ class TestAddPlayer(unittest.TestCase):
         selection.type_in_second_position('Center-back')
         selection.click_on_district_filed('Greater Poland')
         selection.type_in_achievements('Top 10 best goalkeeper in 2020')
-        selection.click_on_the_submit_button()
+        selection.click_on_submit_button()
+        selection.click_on_main_page_button()
+        login_page = LoginPage(self.driver)
+        login_page.last_created_player()
 
     @classmethod
     def tearDown(self):
