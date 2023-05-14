@@ -1,5 +1,5 @@
 [//]: <> (Tytuł)
-# Zadanie 1: Konfiguracja oprogramowania. :tada:
+# Zadanie 1: Konfiguracja oprogramowania. 
 
 [//]: <> (Podtytuł)
 ## Podzadanie 1: Dlaczego zdecydowałem się wziąć udział w wyzwaniu Dare IT Challenge?
