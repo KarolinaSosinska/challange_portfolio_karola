@@ -1,8 +1,8 @@
 [//]: <> (Tytuł)
-# Zadanie 1: Konfiguracja oprogramowania. 
+# :one: Task : Software configuration  
 
 [//]: <> (Podtytuł)
-## Podzadanie 1: Dlaczego zdecydowałem się wziąć udział w wyzwaniu Dare IT Challenge?
+## :one: Subtask: Why did I decide to take part in the Dare IT Challenge? 
 
 Cześć, mam na imię Karolina jestem na pierwszym roku studiów informatycznych i to właśnie na jednych z zajęć usłyszałam o **Dare IT** i zaczęłam zagłębiać się w temat.</br>
 Treści które przekazujecie są inspirujące. Dobra dawka przystępnej wiedzy merytorycznej, ale też uspokojenie dla takich nowicjuszy jak ja, że można też czasem czegoś nie wiedzieć i to jest normalne.😅
@@ -24,7 +24,7 @@ Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i 
 ---
 
 [//]: <> (Selectors)
-# ZADANIE 2: selektory
+# :two: Task: Selectors
 <br>
 
 | Element strony          |                            Selektor 1:                            |                                                                                Selektor 2: |                                                                                                                                                     Selektor 3: |
@@ -46,9 +46,9 @@ Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i 
 ---
 
 [//]: <> (Test Cases)
-# ZADANIE 4: Refactor, debugger i przypadki testowe
+# :four: Task: Refactor, debugger and test cases
 <br>
-Link do Google Drive: https://drive.google.com/drive/folders/1rpcmPnEsfivsjWbM_BE2PjQRkhqdvCEv?usp=sharing
+Link to my <a href = "https://drive.google.com/drive/folders/1rpcmPnEsfivsjWbM_BE2PjQRkhqdvCEv?usp=sharing"> Google Drive </a>
 
 
 <br>
