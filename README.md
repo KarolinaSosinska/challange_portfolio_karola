@@ -4,13 +4,13 @@
 [//]: <> (Podtytuł)
 ## :one: Subtask: Why did I decide to take part in the Dare IT Challenge? 
 
-My name is Karolina and I'm on my the first year of engineering studies in information technology. :computer: I heard about the **DARE IT** during one of my classes.</br>
+My name is Karolina and I'm on my first year of engineering studies in information technology. :computer: I heard about **DARE IT** during one of my classes.</br>
 Your content is inspiring. A good dose of accessible substantive knowledge, but also a reassurance for beginner like me that sometimes you can also not know something and that okay. 😅
 
-I decided to take part in the **Dare IT Challenge** because I am at the beginning of my adventure in IT and I am looking for a place where I will find myself.😉</br>
+I decided to take part in **Dare IT Challenge** because I am at the beginning of my adventure in IT and I am looking for a place where I will find myself.😉</br>
 I was interested in the form in which the course is conducted and what opportunities it offers.
 
-My main goal is to broaden my knowledge, gain experience in the field of automatic testing and check in practice what it is really about and whether it might be</br> a potential career path for me.
+My main goal is to broaden my knowledge, gain experience in the field of automatic testing and check in practice what it is really about and whether it might be a potential career path for me.</br>
 I am determined to complete all tasks and get as much knowledge as possible from this project, which I hopefully :fist: will be able to use in the future.</br>
 In my opinion, the huge advantage of the course is the possibility of obtaining valuable feedback from experts and that we have constant contact with mentors and other participants if we need some help with task.</br>
 I think that the challenge will help me develop both technical and soft skills through added issues from the HR area. :chart_with_upwards_trend:
