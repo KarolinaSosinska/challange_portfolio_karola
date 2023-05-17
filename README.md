@@ -1,22 +1,22 @@
 [//]: <> (Tytuł)
-# Zadanie 1: Konfiguracja oprogramowania.
+# :one: Task : Software configuration  
 
 [//]: <> (Podtytuł)
-## Podzadanie 1: Dlaczego zdecydowałem się wziąć udział w wyzwaniu Dare IT Challenge?
+## :one: Subtask: Why did I decide to take part in the Dare IT Challenge? 
 
-Cześć, mam na imię Karolina jestem na pierwszym roku studiów informatycznych i to właśnie na jednych z zajęć usłyszałam o **Dare IT** i zaczęłam zagłębiać się w temat.</br>
-Treści które przekazujecie są inspirujące. Dobra dawka przystępnej wiedzy merytorycznej, ale też uspokojenie dla takich nowicjuszy jak ja, że można też czasem czegoś nie wiedzieć i to jest normalne.😅
+My name is Karolina and I'm on my the first year of engineering studies in information technology. :computer: I heard about the **DARE IT** during one of my classes.</br>
+Your content is inspiring. A good dose of accessible substantive knowledge, but also a reassurance for beginner like me that sometimes you can also not know something and that okay. 😅
 
-Zdecydowałam się wziąć udział w **Dare IT Challange**, ponieważ jestem na początku swojej przygody w IT i szukam miejsca w którym najlepiej się odnajdę.😉</br>
-Zainteresowała mnie forma w której prowadzony jest kurs i jakie możliwości daje.
+I decided to take part in the **Dare IT Challenge** because I am at the beginning of my adventure in IT and I am looking for a place where I will find myself.😉</br>
+I was interested in the form in which the course is conducted and what opportunities it offers.
 
-Moim celem jest przede wszystkim poszerzenie wiedzy, zdobycia doświadczenia w obszarze testów automatycznych i sprawdzenie w praktyce o co w tym tak naprawdę chodzi i czy to mogłaby być</br> potencjalna ścieżka kariery dla mnie.
-Jestem zdeterminowana, aby ukończyć wszystkie zadania i wyciągnąć z tego projektu jak najwięcej wiedzy z której przyszłości będę mogła korzystać.</br>
-Ogromnym atutem kursu według mnie jest możliwość uzyskania cennego feedbacku od ekspertów oraz kontakt z mentorami i resztą uczestników.</br>
-Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i kompetencje miękkie poprzez dodane zdania z obszaru HR.
+My main goal is to broaden my knowledge, gain experience in the field of automatic testing and check in practice what it is really about and whether it might be</br> a potential career path for me.
+I am determined to complete all tasks and get as much knowledge as possible from this project, which I hopefully :fist: will be able to use in the future.</br>
+In my opinion, the huge advantage of the course is the possibility of obtaining valuable feedback from experts and that we have constant contact with mentors and other participants if we need some help with task.</br>
+I think that the challenge will help me develop both technical and soft skills through added issues from the HR area. :chart_with_upwards_trend:
 
 
-## **<p style="text-align: right;">Karola</p>**
+## **<p style="text-align: right;">Karolina</p>**
 <br>
 <br>
 <br>
@@ -24,21 +24,23 @@ Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i 
 ---
 
 [//]: <> (Selectors)
-# ZADANIE 2: selektory
+# :two: Task: Selectors
 <br>
 
-| Element strony          |                            Selektor 1:                            |                                                                                Selektor 2: |                                                                                                                                                     Selektor 3: |
+| Page element          |                            Selector 1:                            |                                                                                Selector 2: |                                                                                                                                                     Selector 3: |
 |-------------------------|:-----------------------------------------------------------------:|-------------------------------------------------------------------------------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Napis "Login"           |                      //*[@id="login-label"]                       |                                                                        //*[text()="Login"] |                                                                                                                      html/body/div/form/div/div[1]/div[1]/label |
-| Miejsce wpisania loginu |//*[@class="MuiCardContent-root"]//following:: input[@type= "text"]|                                                    //input[@type = "text" or @id= "login"] |                                                                                                                                                //*[@id="login"] |
-| Napis "Password"        |            html/body/div/form/div/div[1]/div[2]/label             |                                                                       //*[@for="password"] |                                                                                                              //label[@data-shrink= "true" and @for= "password"] |
-| Miejsce wpisania hasła  |         html/body/div/form/div/div[1]/div[2]/div[1]/input         |                                                            //*/input[@value = "Test-1234"] |                                                                                                                                             //*[@id="password"] |
-| Remind password         |                              //a[1]                               |                                                        //*[@id="__next"]/form/div/div[1]/a |                                                  //*[contains(@class,"MuiTypography-root MuiLink-root MuiLink-underlineHover jss4 MuiTypography-colorPrimary")] |
-| Przycisk "Sign in"      |             //*[contains(@class, "MuiButton-label")]              |                                                                              //span/text() |                                                                                                                /html/body/div/form/div[1]/div[2]/button/span[1] |
-| Okno wyboru języka      |               /html/body/div/form/div[1]/div[2]/div               |            //*[contains(@class,"MuiInputBase-root MuiInput-root MuiInput-underline jss6")] |                                                                                                                           //*[@id="__next"]/form/div/div[2]/div |
-| Nagłówek "Scouts Panel" |//*[starts-with(@class,"MuiTypography")]|                                                                 //*[text()="Scouts Panel"] |                                                                                                                               /html/body/div/form/div/div[1]/h5 |
-| Strzałka wyboru języka  |//*[contains(@class, "MuiSvgIcon-root MuiSelect-icon")]|//*[@id="__next"]//*[@viewBox="0 0 24 24"]|                                                                                                                 //*[@aria-hidden="true" and @focusable="false"] |
+| Label "Login"           |                      //*[@id="login-label"]                       |                                                                        //*[text()="Login"] |                                                                                                                      html/body/div/form/div/div[1]/div[1]/label |
+| Login input |//*[@class="MuiCardContent-root"]//following:: input[@type= "text"]|                                                    //input[@type = "text" or @id= "login"] |                                                                                                                                                //*[@id="login"] |
+| Label "Password"        |            html/body/div/form/div/div[1]/div[2]/label             |                                                                       //*[@for="password"] |                                                                                                              //label[@data-shrink= "true" and @for= "password"] |
+| Password input  |         html/body/div/form/div/div[1]/div[2]/div[1]/input         |                                                            //*/input[@value = "Test-1234"] |                                                                                                                                             //*[@id="password"] |
+| Remind password button        |                              //a[1]                               |                                                        //*[@id="__next"]/form/div/div[1]/a |                                                  //*[contains(@class,"MuiTypography-root MuiLink-root MuiLink-underlineHover jss4 MuiTypography-colorPrimary")] |
+| Sign in button      |             //*[contains(@class, "MuiButton-label")]              |                                                                              //span/text() |                                                                                                                /html/body/div/form/div[1]/div[2]/button/span[1] |
+| Language selection      |               /html/body/div/form/div[1]/div[2]/div               |            //*[contains(@class,"MuiInputBase-root MuiInput-root MuiInput-underline jss6")] |                                                                                                                           //*[@id="__next"]/form/div/div[2]/div |
+| Header "Scouts Panel" |//*[starts-with(@class,"MuiTypography")]|                                                                 //*[text()="Scouts Panel"] |                                                                                                                               /html/body/div/form/div/div[1]/h5 |
+| Language list selection arrow  |//*[contains(@class, "MuiSvgIcon-root MuiSelect-icon")]|//*[@id="__next"]//*[@viewBox="0 0 24 24"]|                                                                                                                 //*[@aria-hidden="true" and @focusable="false"] |
 
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -46,13 +48,40 @@ Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i 
 ---
 
 [//]: <> (Test Cases)
-# ZADANIE 4: Refactor, debugger i przypadki testowe
+# :four: Task: Refactor, debugger and test cases
 <br>
-Link do Google Drive: https://drive.google.com/drive/folders/1rpcmPnEsfivsjWbM_BE2PjQRkhqdvCEv?usp=sharing
+Link to my <a href = "https://drive.google.com/drive/folders/1rpcmPnEsfivsjWbM_BE2PjQRkhqdvCEv?usp=sharing"> Google Drive </a> folder which contains test cases :file_folder:
 
 
 <br>
 <br>
 <br>
+<br>
+<br>
 
+---
+
+[//]: <> (Test Cases)
+# :five: Task: Rrobot framework
+<br>
+Link to my <a href = "https://github.com/KarolinaSosinska/panelscout_robotframework"> Robot framework </a> repository :computer:
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+[//]: <> (Test Cases)
+# :six: Task: Portfolio
+<br>
+Link to my <a href = "https://github.com/KarolinaSosinska/Portfolio"> Portfolio </a>  :page_with_curl:
+
+
+<br>
+<br>
+<br>
 
