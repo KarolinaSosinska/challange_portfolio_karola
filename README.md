@@ -45,6 +45,7 @@ I think that the challenge will help me develop both technical and soft skills t
 <br>
 <br>
 
+---
 
 [//]: <> (Test Cases)
 # :four: Task: Refactor, debugger and test cases
