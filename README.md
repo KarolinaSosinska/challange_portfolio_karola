@@ -4,19 +4,19 @@
 [//]: <> (Podtytuł)
 ## :one: Subtask: Why did I decide to take part in the Dare IT Challenge? 
 
-Cześć, mam na imię Karolina jestem na pierwszym roku studiów informatycznych i to właśnie na jednych z zajęć usłyszałam o **Dare IT** i zaczęłam zagłębiać się w temat.</br>
-Treści które przekazujecie są inspirujące. Dobra dawka przystępnej wiedzy merytorycznej, ale też uspokojenie dla takich nowicjuszy jak ja, że można też czasem czegoś nie wiedzieć i to jest normalne.😅
+My name is Karolina and I'm on my the first year of engineering studies in information technology. :computer: I heard about the **DARE IT** during one of my classes.</br>
+Your content is inspiring. A good dose of accessible substantive knowledge, but also a reassurance for beginner like me that sometimes you can also not know something and that okay. 😅
 
-Zdecydowałam się wziąć udział w **Dare IT Challange**, ponieważ jestem na początku swojej przygody w IT i szukam miejsca w którym najlepiej się odnajdę.😉</br>
-Zainteresowała mnie forma w której prowadzony jest kurs i jakie możliwości daje.
+I decided to take part in the **Dare IT Challenge** because I am at the beginning of my adventure in IT and I am looking for a place where I will find myself.😉</br>
+I was interested in the form in which the course is conducted and what opportunities it offers.
 
-Moim celem jest przede wszystkim poszerzenie wiedzy, zdobycia doświadczenia w obszarze testów automatycznych i sprawdzenie w praktyce o co w tym tak naprawdę chodzi i czy to mogłaby być</br> potencjalna ścieżka kariery dla mnie.
-Jestem zdeterminowana, aby ukończyć wszystkie zadania i wyciągnąć z tego projektu jak najwięcej wiedzy z której przyszłości będę mogła korzystać.</br>
-Ogromnym atutem kursu według mnie jest możliwość uzyskania cennego feedbacku od ekspertów oraz kontakt z mentorami i resztą uczestników.</br>
-Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i kompetencje miękkie poprzez dodane zdania z obszaru HR.
+My main goal is to broaden my knowledge, gain experience in the field of automatic testing and check in practice what it is really about and whether it might be</br> a potential career path for me.
+I am determined to complete all tasks and get as much knowledge as possible from this project, which I hopefully :fist: will be able to use in the future.</br>
+In my opinion, the huge advantage of the course is the possibility of obtaining valuable feedback from experts and that we have constant contact with mentors and other participants if we need some help with task.</br>
+I think that the challenge will help me develop both technical and soft skills through added issues from the HR area. :chart_with_upwards_trend:
 
 
-## **<p style="text-align: right;">Karola</p>**
+## **<p style="text-align: right;">Karolina</p>**
 <br>
 <br>
 <br>
@@ -42,8 +42,9 @@ Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i 
 <br>
 <br>
 <br>
+<br>
+<br>
 
----
 
 [//]: <> (Test Cases)
 # :four: Task: Refactor, debugger and test cases
@@ -54,7 +55,8 @@ Link to my <a href = "https://drive.google.com/drive/folders/1rpcmPnEsfivsjWbM_B
 <br>
 <br>
 <br>
----
+<br>
+<br>
 
 [//]: <> (Test Cases)
 # :five: Task: Rrobot framework
@@ -65,7 +67,8 @@ Link to my <a href = "https://github.com/KarolinaSosinska/panelscout_robotframew
 <br>
 <br>
 <br>
----
+<br>
+<br>
 
 [//]: <> (Test Cases)
 # :six: Task: Portfolio
