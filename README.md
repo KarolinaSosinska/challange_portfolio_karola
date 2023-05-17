@@ -48,11 +48,32 @@ Myślę, że challange pomoże mi rozwinąć zarówno wiedzę techniczną jak i 
 [//]: <> (Test Cases)
 # :four: Task: Refactor, debugger and test cases
 <br>
-Link to my <a href = "https://drive.google.com/drive/folders/1rpcmPnEsfivsjWbM_BE2PjQRkhqdvCEv?usp=sharing"> Google Drive </a>
+Link to my <a href = "https://drive.google.com/drive/folders/1rpcmPnEsfivsjWbM_BE2PjQRkhqdvCEv?usp=sharing"> Google Drive </a> folder which contains test cases :file_folder:
 
 
 <br>
 <br>
 <br>
+---
 
+[//]: <> (Test Cases)
+# :five: Task: Rrobot framework
+<br>
+Link to my <a href = "https://github.com/KarolinaSosinska/panelscout_robotframework"> Robot framework </a> repository :computer:
+
+
+<br>
+<br>
+<br>
+---
+
+[//]: <> (Test Cases)
+# :six: Task: Portfolio
+<br>
+Link to my <a href = "https://github.com/KarolinaSosinska/Portfolio"> Portfolio </a>  :page_with_curl:
+
+
+<br>
+<br>
+<br>
 
