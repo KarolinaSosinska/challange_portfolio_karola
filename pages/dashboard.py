@@ -24,7 +24,7 @@ class DashBoard(BasePage):
     shortcuts_header_xpath = "//div[2]/div/div/h2"
     activity_header_xpath = "//div[3]/div/div/h2"
     expected_title = 'Scouts panel'
-    dashboard_ur = 'https://scouts-test.futbolkolektyw.pl/'
+    dashboard_ur = 'https://scouts.futbolkolektyw.pl/en/'
     add_player_button_xpath = '//div[2]/div/div/a/button/span[1]'
     wait = WebDriverWait(driver, 10)
     last_updated_player_xpath = '//a[2]/button'

@@ -1,11 +1,10 @@
-import time
 from pages.base_page import BasePage
 
 
 class LogOutPage(BasePage):
     sign_out_button_xpath = '//ul[2]/div[2]'
     header_xpath = '//div[1]/h5'
-    logout_url = 'https://scouts-test.futbolkolektyw.pl/login'
+    logout_url = 'https://scouts.futbolkolektyw.pl/en/login'
     expected_title = 'Scouts panel - sign in'
 
     def click_on_the_sign_out_button(self):

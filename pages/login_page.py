@@ -9,7 +9,7 @@ class LoginPage(BasePage):
     sign_in_button_xpath = "//span[1]"
     header_xpath = '//div[1]/h5'
     header_text = 'Scouts Panel'
-    login_url = 'https://scouts-test.futbolkolektyw.pl/en'
+    login_url = 'https://scouts.futbolkolektyw.pl/en/'
     expected_title = 'Scouts panel - sign in'
     last_created_player_xpath = '//div[3]/div/div/a[1]/button'
     expected_player = 'JOHNN SMITH'

@@ -28,7 +28,7 @@ class AddMatchFormPage(BasePage):
     rating_space_xpath = "//*[@max='5']"
     date_input_xpath = '//div[5]/div/div/input'
     main_page_button_xpath = '//ul[1]/div[1]'
-    add_match_ur = 'https://scouts-test.futbolkolektyw.pl/en/players/6026b48956c79737b3f3c624/matches/add'
+    add_match_ur = 'https://scouts.futbolkolektyw.pl/en//players/6026b48956c79737b3f3c624/matches/add'
     expected_title = 'Adding match player Brzęczyszcykiewić Zażółć Gęślą Jaźń'
 
     def click_on_matches_button(self):

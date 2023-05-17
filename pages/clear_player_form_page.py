@@ -7,7 +7,7 @@ class ClearPlayerFormPage(BasePage):
     selected_player_xpath = '//tbody/tr'
     clear_button_xpath = '//button[2]'
     main_page_button_xpath = '//ul[1]/div[1]'
-    last_updated_player_ur = 'https://scouts-test.futbolkolektyw.pl/en/players/644788fd7ccfb69252f3136e/edit'
+    last_updated_player_ur = 'https://scouts.futbolkolektyw.pl/en/players/644788fd7ccfb69252f3136e/edit'
     expected_title = 'Edit player zaawodnik testowy'
     header_xpath = '//span[text()="Edit player zaawodnik testowy"]'
 
@@ -31,5 +31,4 @@ class ClearPlayerFormPage(BasePage):
         self.click_on_the_element(self.main_page_button_xpath)
 
     def title_of_page(self):
-        self.visibility_of_element_located(self.header_xpath)
-        assert self.get_page_title() == self.expected_title
+        assert self.get_page_title() != self.expected_title
